@@ -10,14 +10,14 @@
 Первый запуск:
 ```shell
 $ ./fetchall https://aliexpress.ru/
-1.53s     948 https://aliexpress.ru/
-1.53s elapsed
+1.97s     932 https://aliexpress.ru/
+1.97s elapsed
 ```
 Второй запуск:
 ```shell
 $ ./fetchall https://aliexpress.ru/
-0.33s     844 https://aliexpress.ru/
-0.33s elapsed
+0.36s     844 https://aliexpress.ru/
+0.36s elapsed
 ```
 
 Изменяем fetchall так, чтобы вывод осуществлялся в файл:
