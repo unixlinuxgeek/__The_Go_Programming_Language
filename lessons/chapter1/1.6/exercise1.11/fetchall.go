@@ -18,7 +18,7 @@ func main() {
 		// Получение из канала ch
 	}
 	for range os.Args[1:] {
-		f, err := os.Create("1.txt")
+		f, err := os.OpenFile("1.txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0775)
 		defer f.Close()
 		if err != nil {
 			ch <- []byte("Error")
