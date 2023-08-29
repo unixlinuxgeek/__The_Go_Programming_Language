@@ -18,10 +18,10 @@ func Signum(x int, y int) int {
 
 	switch {
 	case x > y:
-		fmt.Println(x + y)
+		fmt.Println(1)
 		return 1
 	case x < y:
-		fmt.Println(x - y)
+		fmt.Println(2)
 		return 2
 	default:
 		return 0
