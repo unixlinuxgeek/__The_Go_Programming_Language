@@ -23,3 +23,4 @@ continue  for              import    return        var
 Функции:  ```make len cap new append copy close delete```
           ```complex real imag panic recover```
 
+
