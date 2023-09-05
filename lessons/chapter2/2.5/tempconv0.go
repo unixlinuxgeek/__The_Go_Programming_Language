@@ -13,9 +13,11 @@ const (
 )
 
 func CTof(c Celsius) Fahrenheit {
+	// Fahrenheit(c*9/5 + 32) это преобразование типа, а не вызов функций
 	return Fahrenheit(c*9/5 + 32)
 }
 
 func FToc(f Fahrenheit) Celsius {
+	// Celsius((f - 32) * 5 / 9) это преобразование типа, а не вызов функций
 	return Celsius((f - 32) * 5 / 9)
 }

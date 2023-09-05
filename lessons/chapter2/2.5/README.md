@@ -12,3 +12,8 @@ type имя базовый_тип
 И если он экспортируется(начинается с прописной буквы) то он доступен в других пакетах.
 
 [Пример](https://github.com/unixlinuxgeek/The_Go_Programming_Language/blob/main/lessons/chapter2/2.5/tempconv0.go)
+
+Преобразование типа (из примера)...
+```go
+
+```
