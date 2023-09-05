@@ -11,4 +11,4 @@ type имя базовый_тип
 Объявление типов чаще всего встречаются на уровне пакета, где именованный тип виден всему пакету.
 И если он экспортируется(начинается с прописной буквы) то он доступен в других пакетах.
 
-[Пример](https://github.com/unixlinuxgeek/The_Go_Programming_Language/tree/main/lessons/chapter2/2.5/tempconv.go)
+[Пример](https://github.com/unixlinuxgeek/The_Go_Programming_Language/blob/main/lessons/chapter2/2.5/tempconv0.go)
