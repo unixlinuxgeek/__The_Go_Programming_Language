@@ -14,8 +14,10 @@ func main() {
 		os.Exit(1)
 	}
 
-	// Присваиваем ненужные значения пустому идентификатору
-	if _, err := io.WriteString(f, "Hi Dias Alan and Aidan!!!\n"); err != nil {
+	// n это количество записанных байтов
+	if n, err := io.WriteString(f, "Hi Dias Alan and Aidan!!!\n"); err == nil {
+		fmt.Println(n)
+	} else {
 		fmt.Fprintf(os.Stderr, "%s/n", err)
 		os.Exit(1)
 	}
